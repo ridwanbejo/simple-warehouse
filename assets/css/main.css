@@ -1,0 +1,33 @@
+.ezy-table {
+	margin:30px;
+}
+
+.ezy-table thead td{
+	padding: 10px;
+	background: black;
+	color: white;
+}	
+
+.ezy-table tbody td {
+	padding: 10px;
+	background: #F9ADF9 ;
+}	
+
+.ezy-form  {
+	margin: 30px;
+}
+
+.ezy-input {
+	margin: 10px;
+
+}
+
+.ezy-input input{ 
+	border: 2px solid blue;
+	height: 25px;
+}
+
+.ezy-input select{ 
+	border: 2px solid blue;
+	height: 25px;
+}
