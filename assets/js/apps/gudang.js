@@ -12,7 +12,7 @@ $(function(){
 		
 		var post_data = $(this).serialize();
 		var form_status = $('#form_status').val();
-		var url = base_url+'/barang/ajax_add_mutasi';
+		var url = base_url+'/mutasi/ajax_add_mutasi';
 
 		$.ajax({
 			url: url,
@@ -21,7 +21,8 @@ $(function(){
 			success: function(res){
 				if (res.status == 200)
 				{
-					var forms = document.getElementById('form-add-barang');
+					alert(res.message);
+					var forms = document.getElementById('form-add-mutasi');
 					forms.reset();		
 				}
 				else

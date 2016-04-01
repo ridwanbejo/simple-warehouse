@@ -11,7 +11,6 @@
 				<hr/>
 				<a href="<?php echo site_url('/');?>">Barang</a> |
 				<a href="<?php echo site_url('/warehouse/gudang'); ?>">Gudang</a> |
-				<a href="<?php echo site_url('/warehouse/history'); ?>">History</a>
 				<hr/>
 			</div>
 		</header>	

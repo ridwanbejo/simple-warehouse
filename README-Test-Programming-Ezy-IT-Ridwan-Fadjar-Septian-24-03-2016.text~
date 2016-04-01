@@ -1,0 +1,16 @@
+Kontak
+------
+Nama: Ridwan Fadjar Septian
+E-Mail: ridwanbejo@gmail.com
+Phone: 0857 5921 1894
+Expected Salary: Rp. 4.700.000
+
+Terlampir:
+----------
+- file SQL dengan nama database "ezy_warehouse"
+- file ERD yang dibuat oleh MySQL Workbench
+- screenshot
+
+note: file diatas terdapat di folder "file_tambahan_test_programming"
+silahkan ubah file config/database.php untuk menyesuaikan dengan xampp / hak akses ke MySQL di komputer/laptop penguji
+

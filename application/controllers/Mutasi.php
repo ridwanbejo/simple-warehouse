@@ -12,11 +12,11 @@ class Mutasi extends CI_Controller {
 	public function ajax_add_mutasi()
 	{
 		$data = array (
-				'jumlah_barang' => $this->input->post('kode_barang'),
-				'jenis_mutaso' => $this->input->post('nama_barang'),
-				'master_barang_Kode_Barang' => $this->input->post('jenis_barang'),
-				'master_gudang_Kode_Gudang' => $this->input->post('jenis_barang'),
-				'keterangan' => $this->input->post('no_part'),
+				'jumlah_barang' => $this->input->post('kuantitas'),
+				'jenis_mutasi' => $this->input->post('jenis_mutasi'),
+				'master_barang_Kode_Barang' => $this->input->post('kode_barang'),
+				'master_gudang_Kode_Gudang' => $this->input->post('kode_gudang'),
+				'keterangan' => $this->input->post('keterangan'),
 			);
 
 		$new_id = $this->gudang_model->set_mutasi_barang($data);

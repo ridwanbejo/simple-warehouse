@@ -48,7 +48,7 @@
 			<td id="nama-gudang-<?php echo $row->Kode_Gudang ?>"><?php echo $row->Nama_Gudang ?></td>
 			<td>
 				<a href="<?php echo site_url("/warehouse/detail/".$row->Kode_Gudang);?>" >Lihat Barang</a> | 
-				<a href="<?php echo site_url("/warehouse/mutasi/".$row->Kode_Gudang);?>" >Lihat History Mutasi</a>
+				<a href="<?php echo site_url("/warehouse/history/".$row->Kode_Gudang);?>" >Lihat History Mutasi</a>
 			</td>
 		</tr>
 		<?php } ?>
